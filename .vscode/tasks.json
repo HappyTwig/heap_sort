@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cargo",
+			"subcommand": "build",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "Rust: cargo build - heap_sort"
+		},
+		{
+			"type": "shell",
+			"label": "cargo run shell",
+			"command": "cargo",
+			"args": [
+				"$rustc"
+			]
+		}
+	]
+}
